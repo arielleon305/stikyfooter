@@ -1,0 +1,35 @@
+body {
+  background: peru;
+  min-height: 100vh;      /*definir alto del padre, para resolverlo*/
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  background: #fcdcd2;
+
+}
+
+section{
+  background: #fcdcd2;
+  flex: 1;
+}
+
+footer {
+  background: #acdcd2;
+  /*height: 100px;*/
+  /*position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+}
